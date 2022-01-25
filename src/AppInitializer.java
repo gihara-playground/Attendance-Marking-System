@@ -14,7 +14,7 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        AnchorPane root = FXMLLoader.load(this.getClass().getResource("/view/LoginFormAdmin.fxml.fxml"));
+        AnchorPane root = FXMLLoader.load(this.getClass().getResource("/view/LoginFormAdmin.fxml"));
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
         primaryStage.setTitle("Attendance Marking System - Login");
